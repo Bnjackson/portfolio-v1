@@ -7,6 +7,11 @@ body {
     height: 100vh;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 a:link {
     text-decoration: none;
   }
@@ -40,6 +45,14 @@ Typography
     font-size: 1.1rem;
 }
 
+.about-section-title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.about-section p {
+    font-size: 1rem;
+}
 /*
 Colours
 */
@@ -117,4 +130,19 @@ nav {
 .toggle-theme button:hover {
     cursor: pointer;
     background-color: #4C566A;
+}
+
+/*
+About me section
+*/
+.about-section {
+    max-width: 800px;
+}
+
+.about-section-title {
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    margin-bottom: 15px;
 }
