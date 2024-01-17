@@ -41,7 +41,7 @@ a:active {
 Typography
 */
 * {
-    font-family: 'Rubik', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family:  system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #ECEFF4;
 }
 
@@ -55,7 +55,7 @@ Typography
 }
 
 .about-section-title h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
@@ -64,7 +64,7 @@ Typography
 }
 
 .section-header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
@@ -87,9 +87,26 @@ Typography
     font-size: 0.9rem;
 }
 
+.now-section-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.now-section-header p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #a1a1aa
+}
+
 footer p {
     font-size: 0.8rem;
 }
+
+.now-section-content span {
+    font-size: 0.8rem;
+    color: #a1a1aa
+}
+
 /*
 Colours
 */
@@ -204,8 +221,9 @@ Projects section
 }
 
 .project-card {
-    margin-bottom: 15px;
+    margin-bottom: -28px;
     width: 49%;
+    height: 220px;
     background-color: #3B4252;
     border: 1px solid lightgray;
     border-radius: 8px;
@@ -231,4 +249,23 @@ Projects section
 
 .card-links a:hover {
     border: 1px solid #5E81AC;
+}
+
+/*
+Now section
+*/
+.now-section {
+    max-width: 800px;
+}
+
+.now-section-header {
+    margin-bottom: 20px;
+}
+
+.now-section-header p {
+    margin-top: -8px;
+}
+
+.now-section-content p {
+    margin-bottom: 15px;
 }
